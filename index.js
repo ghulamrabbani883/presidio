@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(cors())
 
 app.get("/", (req, res) => {
-  res.send("Hello from Presidio challenge");
+  return res.send("Hello from Presidio challenge");
 });
 
 // Using Routes
